@@ -21,6 +21,7 @@
 
 
         <activity android:name="lyxs.city.CitySelectActivity" />
+        <activity android:name="lyxs.city.CityActivity" />
 
 
     </application>

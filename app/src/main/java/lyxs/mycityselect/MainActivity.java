@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import lyxs.city.CitySelectActivity;
+import lyxs.city.CityActivity;
 
 
 public class MainActivity extends Activity {
@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         select.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this, CitySelectActivity.class);
+                Intent intent=new Intent(MainActivity.this, CityActivity.class);
                 startActivity(intent);
 
             }
